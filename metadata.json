@@ -1,0 +1,6 @@
+{
+  "name": "QuizBot Défi Élèves",
+  "description": "Plateforme de quiz par IA et défis multijoueurs entre élèves avec classement en temps réel, attribution intelligente des points et mode hors ligne PWA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

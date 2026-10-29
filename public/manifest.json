@@ -1,0 +1,17 @@
+{
+  "name": "QuizBot Défi Élèves",
+  "short_name": "QuizDéfi",
+  "description": "Plateforme de quiz par IA et défis multijoueurs entre élèves avec classement en direct.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

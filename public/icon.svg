@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+    <linearGradient id="faceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+  
+  <!-- App Background -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)" />
+  
+  <!-- Robot Head Outline -->
+  <rect x="116" y="140" width="280" height="230" rx="40" fill="url(#faceGrad)" stroke="#6366f1" stroke-width="8" />
+  
+  <!-- Robot Ears / Antennas -->
+  <rect x="86" y="225" width="24" height="60" rx="10" fill="#6366f1" />
+  <rect x="402" y="225" width="24" height="60" rx="10" fill="#6366f1" />
+  <circle cx="256" cy="100" r="16" fill="#38bdf8" />
+  <line x1="256" y1="140" x2="256" y2="116" stroke="#38bdf8" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Robot Crown on Head -->
+  <path d="M196 135 L226 80 L256 120 L286 80 L316 135 Z" fill="url(#goldGrad)" stroke="#78350f" stroke-width="4" stroke-linejoin="round" />
+  <circle cx="226" cy="76" r="6" fill="#ef4444" />
+  <circle cx="256" cy="116" r="6" fill="#3b82f6" />
+  <circle cx="286" cy="76" r="6" fill="#10b981" />
+
+  <!-- Robot Eyes (Visor) -->
+  <rect x="156" y="195" width="200" height="65" rx="20" fill="#020617" stroke="#38bdf8" stroke-width="4" />
+  <circle cx="206" cy="227" r="16" fill="#38bdf8" />
+  <circle cx="306" cy="227" r="16" fill="#38bdf8" />
+  <circle cx="212" cy="223" r="5" fill="#ffffff" />
+  <circle cx="312" cy="223" r="5" fill="#ffffff" />
+
+  <!-- Robot Smile / Sound Wave -->
+  <path d="M186 300 Q256 340 326 300" fill="none" stroke="#22c55e" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Quiz Lightning Badge -->
+  <circle cx="256" cy="420" r="42" fill="url(#goldGrad)" stroke="#ffffff" stroke-width="4" />
+  <path d="M258 395 L240 422 H256 L254 445 L272 418 H256 Z" fill="#ffffff" />
+</svg>
